@@ -58,11 +58,11 @@
 Проект разделён на слои:
 
 ```text
-controller   — REST-контроллеры
-dto          — объекты запросов и ответов
-service      — бизнес-логика
-repositories — работа с базой данных
-model        — доменные сущности
-mapper       — преобразование model <-> dto
-security     — авторизация, JWT, OAuth2, фильтры
-validation   — валидация входных данных
+controller   REST-контроллеры
+dto          объекты запросов и ответов
+service      бизнес-логика
+repositories работа с базой данных
+model        доменные сущности
+mapper       преобразование model <-> dto
+security     авторизация, JWT, OAuth2, фильтры
+validation   валидация входных данных
